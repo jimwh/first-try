@@ -5,6 +5,14 @@
 
     <display-name>Sample Spring Maven Project</display-name>
 
+<!--
+this the url get token:
+http://localhost:8080/oauth/token?grant_type=password&client_id=restapp&client_secret=restapp&username=beingjavaguys&password=spring@java
+
+this the url get data:
+http://localhost:8080/api/users/?access_token=7a9a2243-a9d7-4fe4-b5b8-99cee7a6a260
+-->
+
     <servlet>
         <servlet-name>mvc-dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
