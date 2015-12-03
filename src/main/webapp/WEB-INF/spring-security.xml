@@ -78,7 +78,7 @@
                             xmlns="http://www.springframework.org/schema/security">
         <authentication-provider>
             <user-service>
-                <user name="beingjavaguys" password="spring@java" authorities="ROLE_APP"/>
+                <user name="java" password="spring" authorities="ROLE_APP"/>
             </user-service>
         </authentication-provider>
     </authentication-manager>
